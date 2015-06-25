@@ -12,8 +12,6 @@ var SongModel = Backbone.Model.extend({
     this.trigger('dequeue', this);
   },
 
-  playCount : 0,
-
   songEnded: function(){
     this.trigger('songEnded',this)
     this.attributes.playcount++

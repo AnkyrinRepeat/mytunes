@@ -24,6 +24,7 @@ var AppView = Backbone.View.extend({
       this.model.get('songQueue').first().songEnded();
       this.model.get('songQueue').shift();
       this.libraryView.render();
+
       if (this.model.get('songQueue').length !== 0) {
         this.model.get('songQueue').first().play();
       }

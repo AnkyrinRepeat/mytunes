@@ -1,0 +1,39 @@
+body{
+  background-color: #E6E6E6;
+  font-family: sans-serif;
+}
+
+audio{
+  display: block;
+}
+
+table{
+  border: 1px solid #B2B2B2;
+  background-color: #CCCCCC;
+  margin: 4px 2px;
+  float: left;
+  padding: 5px;
+}
+
+.library{
+  padding: 10px;
+  text-align: center;
+}
+
+.queue{
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.artist{
+  font-weight: bold;
+  padding: 5px;
+
+}
+
+.title{
+  padding: 5px;
+
+}
