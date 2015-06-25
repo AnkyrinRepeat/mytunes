@@ -16,6 +16,8 @@ var AppModel = Backbone.Model.extend({
     params.library.on('play', function(song){//This will need to be updated
       this.set('currentSong', song);
     }, this);
+    params.library.on('songEnded', function(song){
+    })
     params.library.on('enqueue', function(song) {
       if (this.get('songQueue').length === 0) {
         song.play()//get the first queued song playing
